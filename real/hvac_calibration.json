@@ -1,0 +1,13 @@
+{
+  "outdoor_cop_penalty_per_k": 0.0025,
+  "design_outdoor_temp_c": 27.5,
+  "facility_overhead_fraction_of_it": 0.32,
+  "pump_kw_per_kw_load": 0.078,
+  "weighted_loss_note": "Manual defaults prioritize tropical PUE ~1.61 and corr(T)~0.60 on HVAC CSV; SciPy-only fit with tight condenser bounds yields similar k but parks T_design high — see calibrate_simulator_to_hvac.py",
+  "sim_corr_T": 0.596470677643142,
+  "sim_corr_load": 0.9995006094492563,
+  "target_corr_T": 0.5581361014230112,
+  "target_corr_load": 0.916168942411275,
+  "tropical_pue_reference": 1.608904655072059,
+  "hvac_rows": 13615
+}

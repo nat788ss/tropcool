@@ -1,0 +1,35 @@
+{
+  "cities": {
+    "cyberjaya": {
+      "baseline_RM": 1085165.0,
+      "SAC_RM": 1065391.0
+    },
+    "singapore": {
+      "baseline_RM": 1119266.0,
+      "SAC_RM": 1041504.0
+    },
+    "jakarta": {
+      "baseline_RM": 1163253.0,
+      "SAC_RM": 1210732.0
+    },
+    "bangkok": {
+      "baseline_RM": 1217660.0,
+      "SAC_RM": 1047474.0
+    },
+    "johor_bahru": {
+      "baseline_RM": 1270345.0,
+      "SAC_RM": 1178998.0
+    },
+    "ho_chi_minh_city": {
+      "baseline_RM": 1310558.0,
+      "SAC_RM": 1184463.0
+    }
+  },
+  "mean_Y_pct": 6.11,
+  "strict_sac_beats_baseline_all": false,
+  "strict_failures": [
+    "jakarta"
+  ],
+  "source": "data/rl/per_city_v2_strict_eval.log",
+  "generated_at": "2026-06-01T13:15:09.889146+00:00"
+}

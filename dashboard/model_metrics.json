@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-06-01T13:15:09.888557+00:00",
+  "source": "data/training/checkpoints/kaggle_finetune_metrics.json",
+  "split": "kaggle_finetune_holdout",
+  "targets": {
+    "rack_temp_c": {
+      "r2": 0.9523296356201172,
+      "mae": 0.11744678020477295,
+      "rmse": 0.13535993255673018
+    },
+    "cooling_power_kw": {
+      "r2": 0.9518819451332092,
+      "mae": 327.0076599121094,
+      "rmse": 394.05991771556774
+    },
+    "water_l": {
+      "r2": 0.8930057883262634,
+      "mae": 2526.273681640625,
+      "rmse": 2891.832464026919
+    },
+    "pue": {
+      "r2": 0.936979353427887,
+      "mae": 0.0188705176115036,
+      "rmse": 0.023602110006487466
+    },
+    "cost_rm": {
+      "r2": 0.9178913831710815,
+      "mae": 158.8094482421875,
+      "rmse": 181.79618137491227
+    }
+  },
+  "note": "Post fine-tune metrics on real DC operational overlap (kaggle_finetune)."
+}

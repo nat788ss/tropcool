@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-06-01T13:24:37.053639+00:00",
+  "assumption_facility_mw_per_site": 10,
+  "num_cities": 6,
+  "total_mw_saved_estimate": 0.9,
+  "total_water_saved_m3_yr": 47167.0,
+  "total_co2_reduced_tonnes_yr": 20595.0,
+  "total_cost_rm_saved_yr": 7256389.0,
+  "per_city": [
+    {
+      "city": "cyberjaya",
+      "y_pct": 2.23,
+      "cost_rm_saved": 443477.0,
+      "water_l_saved": 2882599.0,
+      "sac_wins": true
+    },
+    {
+      "city": "singapore",
+      "y_pct": 6.92,
+      "cost_rm_saved": 1418588.0,
+      "water_l_saved": 9220821.0,
+      "sac_wins": true
+    },
+    {
+      "city": "jakarta",
+      "y_pct": -3.89,
+      "cost_rm_saved": 0.0,
+      "water_l_saved": 0.0,
+      "sac_wins": false
+    },
+    {
+      "city": "bangkok",
+      "y_pct": 6.72,
+      "cost_rm_saved": 1477510.0,
+      "water_l_saved": 9603811.0,
+      "sac_wins": true
+    },
+    {
+      "city": "johor_bahru",
+      "y_pct": 6.99,
+      "cost_rm_saved": 1597940.0,
+      "water_l_saved": 10386613.0,
+      "sac_wins": true
+    },
+    {
+      "city": "ho_chi_minh_city",
+      "y_pct": 9.87,
+      "cost_rm_saved": 2318874.0,
+      "water_l_saved": 15072680.0,
+      "sac_wins": true
+    }
+  ],
+  "note": "Illustrative SEA aggregate from world-model rollouts at 10 MW reference per city."
+}
